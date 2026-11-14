@@ -1,0 +1,24 @@
+{
+  "simplelan.configuration.title": "SimpleLan",
+  "simplelan.configuration.section.simplelan.common.toml": "SimpleLan",
+  "simplelan.configuration.section.simplelan.common.toml.title": "SimpleLan",
+
+  "simplelan.configuration.enabled": "局域网自动开放",
+  "simplelan.configuration.enabled.tooltip": "总开关。关闭后不再自动开放局域网，但命令仍可手动发布。\n/simplelan 查看状态\n/simplelan republish [端口] 重新发布\n/simplelan defaults <端口> 保存默认端口",
+  "simplelan.configuration.remind": "提醒",
+  "simplelan.configuration.remind.tooltip": "进入存档后延迟指定秒数，再提醒一次端口号，\n防止首次提示被其他模组的聊天信息刷掉。\n只提醒一次，不会循环。\n0 表示不提醒，1 及以上为延迟秒数。",
+  "simplelan.configuration.port": "端口",
+  "simplelan.configuration.port.tooltip": "监听端口。填 0 由 MC 自动分配空闲端口，其余数值原样使用。\n低于 1024 需管理员权限，且常被系统服务占用。\n临时更换 /simplelan republish <端口>\n长期保存 /simplelan defaults <端口>",
+
+  "simplelan.chat.repeat": "SimpleLan：本地游戏仍在端口%s上开启",
+  "simplelan.chat.publishFailed": "SimpleLan：无法开放端口 %s，该端口可能已被占用或需要管理员权限",
+
+  "simplelan.command.no_world": "SimpleLan：请先进入一个单人存档",
+  "simplelan.command.status.published": "SimpleLan：已开放，端口 %s",
+  "simplelan.command.status.idle": "SimpleLan：未开放",
+  "simplelan.command.republish.done": "SimpleLan：已重新发布，端口 %s",
+  "simplelan.command.republish.same": "SimpleLan：已在端口 %s 开放，请指定其他端口",
+  "simplelan.command.republish.failed": "SimpleLan：发布失败，端口 %s 不可用",
+  "simplelan.command.defaults.done": "SimpleLan：默认端口已写入配置（%s），下次进入存档时生效",
+  "simplelan.command.defaults.failed": "SimpleLan：无法写入配置文件"
+}

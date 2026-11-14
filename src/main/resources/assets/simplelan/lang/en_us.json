@@ -1,0 +1,24 @@
+{
+  "simplelan.configuration.title": "SimpleLan",
+  "simplelan.configuration.section.simplelan.common.toml": "SimpleLan",
+  "simplelan.configuration.section.simplelan.common.toml.title": "SimpleLan",
+
+  "simplelan.configuration.enabled": "Enable LAN auto open",
+  "simplelan.configuration.enabled.tooltip": "Master switch. When false, SimpleLan never opens a world to LAN on its own, but the commands still work.\n/simplelan for the current status\n/simplelan republish [port] to reopen on another port\n/simplelan defaults <port> to save the default port",
+  "simplelan.configuration.remind": "Remind again after",
+  "simplelan.configuration.remind.tooltip": "Reminds the port number once more after this many\nseconds, in case other mods bury the first hint in\nchat spam. It reminds only once, it does not repeat.\n0 disables the reminder, 1 or more is the delay.",
+  "simplelan.configuration.port": "TCP port",
+  "simplelan.configuration.port.tooltip": "Port used when opening a world to LAN. 0 lets Minecraft pick a free port, anything else is used as-is.\nPorts below 1024 need administrator rights and are often taken by system services.\nChange now: /simplelan republish <port>\nSave it: /simplelan defaults <port>",
+
+  "simplelan.chat.repeat": "SimpleLan: local game is still hosted on port %s",
+  "simplelan.chat.publishFailed": "SimpleLan: could not open port %s, it may already be in use or need administrator rights",
+
+  "simplelan.command.no_world": "SimpleLan: load a singleplayer world first",
+  "simplelan.command.status.published": "SimpleLan: open on port %s",
+  "simplelan.command.status.idle": "SimpleLan: not open to LAN",
+  "simplelan.command.republish.done": "SimpleLan: reopened on port %s",
+  "simplelan.command.republish.same": "SimpleLan: already open on port %s, pick a different one",
+  "simplelan.command.republish.failed": "SimpleLan: could not open to LAN on port %s",
+  "simplelan.command.defaults.done": "SimpleLan: default port set to %s, it applies the next time you load a world",
+  "simplelan.command.defaults.failed": "SimpleLan: could not write the config file"
+}
