@@ -52,6 +52,4 @@ jobs:
           gh release create "$GITHUB_REF_NAME" \
             build/libs/simplelan-*.jar \
             --title "SimpleLan $VERSION" \
-            --notes "Minecraft $MINECRAFT / NeoForge $NEOFORGE
-
-把 \`simplelan-$VERSION.jar\` 放进 \`mods\` 文件夹即可。"
+            --notes "Minecraft $MINECRAFT / NeoForge $NEOFORGE. 把 simplelan-$VERSION.jar 放进 mods 文件夹即可。"
